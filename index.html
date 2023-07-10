@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <!---<a href="#" class="logo">Portfolio</a>--->
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!---home sectio design-->
+    <div class="section home" id="home">
+        <div class="home-content">
+            <h3>Hello, it's me!</h3>
+            <h1>Rocio Suarez</h1>
+            <h3>An I'm a <span class="multiple-text">Frontend Developer</span></h3>
+            <p>
+                Hello, I am Rocio Suarez, frontend developer, I have knowledge of
+                react.js, html, css, javascript and typescript.
+            </p>
+            <div class="social-media">
+                <a href="#"> <i class="bx bxl-facebook-circle"></i> </a>
+                <a href="#"> <i class="bx bxl-linkedin"></i> </a>
+                <a href="#"> <i class="bx bxl-github"></i> </a>
+            </div>
+        </div>
+        <a href="#" class="btn">Download Cv</a>
+    </div>
+    <div class="home-img">
+        <img src="./image/perfil.PNG" alt="" srcset="" />
+    </div>
+
+    <section class="about" id="abot">
+        <div class="about-img">
+            <img src="images" alt="" />
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h2>Frontend Developer</h2>
+            <p>
+                Meu nome é Rocío Suárez, sou Desenvolvedor Frontend. Apaixonado por
+                tecnologia e metodologias ágeis, busco sempre me aprimorar acumulando
+                experiências para também ter um melhor desenvolvimento adaptado ao
+                mercado de trabalho atual. Formado em Web Frontend pela Potrero
+                Digital, na Argentina, atualmente me mudei da Argentina para o Brasil,
+                no mesmo período que estou fazendo a transição de carreira para área.
+                Estou fazendo meu treinamento no Bootcamp Labenu, como desenvolvedor
+                Full-Ftack usando tecnologias como React, Javascript, Typescript e
+                alguns Frameworks. Possuo experiências em projetos práticos,
+                Conhecimento básico de bancos de dados relacionais (MySQL,
+                PostgreSQL).
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bxs-happy-heart-eyes"></i>
+                <h3>Web Api</h3>
+                <p>
+                    Projeto feito com typescript, sqlite e vite. O usuário pode fazer
+                    seu cadastro através do qual é gerado um token de usuário, salvo no
+                    banco de dados. Então você pode interagir postando e comentando uma
+                    postagem!
+                </p>
+                <a href="https://projeto-fullstack-labeedit.vercel.app/" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bxl-javascript"></i>
+                <h3>Javascript</h3>
+                <p>
+                    O objetivo é construir uma página estilizada, e com lista e busca
+                    utilizando manipulação de DOM, praticando o conteúdo do módulo com
+                    JS: Variáveis Operadores Strings Arrays Objetos Condicionais Laços
+                    Funções Funções de Array HTML e CSS Flex e Grid DOM e responsividade
+                </p>
+                <a href="https://suarezrocio.github.io/SuarezRocio-projeto-intro-web/" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bxs-paint"></i>
+                <h3>Html Css Bootstrap</h3>
+                <p>
+                    O objetivo deste projeto era fazer minha primeira prática usando o
+                    framework bootstrap.
+                </p>
+                <a href="
+          https://exquisite-salamander-1ded56.netlify.app/
+          " class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bxl-react"></i>
+                <h3>React.js</h3>
+                <p>
+                    o objetivo deste projeto é * Mostrar uma lista de Pokemons, contendo
+                    ao menos 20 Pokemons; * Cada Pokemon será representado por um Card;
+                    * Em cada card de Pokemon tem um botão para adicioná-lo à Pokedex e
+                    um outro botão para acessar os detalhes do Pokemon; * Além disso, no
+                    header dessa página, terá um botão para acessar a página da Pokedex
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!--portofolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./image/api.PNG" alt="" />
+                <div class="portfolio-layer">
+                    <h4>Web Api</h4>
+                    <p>
+                        Projeto feito com typescript, sqlite e vite. O usuário pode fazer
+                        seu cadastro através do qual é gerado um token de usuário, salvo
+                        no banco de dados. Então você pode interagir postando e comentando
+                        uma postagem!
+                    </p>
+                    <a href="https://projeto-fullstack-labeedit.vercel.app/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./image/pizza.PNG" alt="" />
+                <div class="portfolio-layer">
+                    <h4>Javascript</h4>
+                    <p>
+                        O objetivo é construir uma página estilizada, e com lista e busca
+                        utilizando manipulação de DOM, praticando o conteúdo do módulo com
+                        JS: Variáveis Operadores Strings Arrays Objetos Condicionais Laços
+                        Funções Funções de Array HTML e CSS Flex e Grid DOM e
+                        responsividade
+                    </p>
+                    <a href="https://suarezrocio.github.io/SuarezRocio-projeto-intro-web/"><i
+                            class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./image/bootstrap.PNG" alt="" />
+                <div class="portfolio-layer">
+                    <h4>Html Css Bootstrap</h4>
+                    <p>
+                        O objetivo deste projeto era fazer minha primeira prática usando o
+                        framework bootstrap.
+                    </p>
+                    <a href="
+            https://exquisite-salamander-1ded56.netlify.app/
+            "><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./image/pokemon.PNG" alt="" />
+                <div class="portfolio-layer">
+                    <h4>React.js</h4>
+                    <p>
+                        o objetivo deste projeto é * Mostrar uma lista de Pokemons,
+                        contendo ao menos 20 Pokemons; * Cada Pokemon será representado
+                        por um Card; * Em cada card de Pokemon tem um botão para
+                        adicioná-lo à Pokedex e um outro botão para acessar os detalhes do
+                        Pokemon; * Além disso, no header dessa página, terá um botão para
+                        acessar a página da Pokedex
+                    </p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./image/react-galaxia.PNG" alt="" />
+                <div class="portfolio-layer">
+                    <h4>React.js</h4>
+                    <p>
+                        1. O usuário deve ser capaz de visualizar os produtos adicionados
+                        2. O usuário deve ser capaz de visualizar a quantidade correta de
+                        cada produto 3. O usuário deve ser capaz de remover itens do
+                        carrinho 4. O usuário deve ser capaz de ver corretamente o valor
+                        total de sua compra 5. Quando a página é atualizada, os itens
+                        devem continuar no carrinho O usuário também pode filtrar por nome
+                        por valor máximo mínimo, por ordem e por nome
+                    </p>
+                    <a href="https://roupas-labenu-suarez-rocio.surge.sh/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./image/contador.PNG" alt="" />
+                <div class="portfolio-layer">
+                    <h4>Javascript proyect-Contador</h4>
+                    <p>
+                        Projeto pensado em função de cronometrar os segundos em marcha ré
+                        e colocar uma parada ou retorno ao ponto zero
+                    </p>
+                    <a href=" https://glistening-douhua-803764.netlify.app"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./image/calendar.PNG" alt="" />
+                <div class="portfolio-layer">
+                    <h4>Javascript proyect-Calendar</h4>
+                    <p>
+                        A ideia original deste projeto é que o usuário tenha um calendário
+                        para ver os dias da semana
+                    </p>
+                    <a href="https://inquisitive-dragon-bbab57.netlify.app/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./image/Grocery.PNG" alt="" />
+                <div class="portfolio-layer">
+                    <h4>Javascript proyect-ToDoList</h4>
+                    <p>
+                        a ideia original tem uma lista de tarefas onde pode riscar ou
+                        eliminar de acordo com o seu interesse
+                    </p>
+                    <a href="https://gregarious-unicorn-e3e9a6.netlify.app"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./image/pasapalabras.PNG" alt="" />
+                <div class="portfolio-layer">
+                    <h4>Javascript proyect-Pasapalabra</h4>
+                    <p>
+                        A ideia desse jogo é que o usuário vá respondendo uma série de
+                        perguntas e dependendo se sua resposta está correta, a cor é verde
+                        ou não correta, a cor é vermelha
+                    </p>
+                    <a href=" https://precious-mochi-baf6d6.netlify.app/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./image/Relogio-Digital.PNG" alt="" />
+                <div class="portfolio-layer">
+                    <h4>Javascript proyect-Relogio</h4>
+                    <p>
+                        este projeto é um relógio que conta minutos e segundos
+                    </p>
+                    <a href=" https://hilarious-zuccutto-9190d7.netlify.app"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="inpit-box">
+                <input type="text" placeholder="Full Name" />
+                <input type="email" placeholder="Email Adress" />
+            </div>
+            <div class="inpit-box">
+                <input type="number" placeholder="Mobile Number" />
+                <input type="text" placeholder="Email Subject" />
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="send messsage" class="btn" />
+        </form>
+    </section>
+
+    <!--footer design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright & copy; 2023 by Rocio Suarez | All Rigths Rserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

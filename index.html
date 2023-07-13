@@ -275,26 +275,69 @@
     </section>
 
     <!---contact section design-->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="#">
-            <div class="inpit-box">
-                <input class="inputContact" type="text" placeholder="Full Name" />
-                <br /><br /><br />
-                <input class="inputContact" type="email" placeholder="Email Adress" />
-                <br /><br /><br />
-            </div>
-            <div class="inpit-box">
-                <input class="inputContact" type="number" placeholder="Mobile Number" />
-                <br /><br /><br />
-                <input class="inputContact" type="text" placeholder="Email Subject" />
-            </div>
-            <br /><br /><br /><br />
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-            <br /><br /><br />
-            <input type="submit" value="send messsage" class="btn" />
-        </form>
-    </section>
+    <!--- <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="inpit-box">
+          <input class="inputContact" type="text" placeholder="Full Name" />
+          <br /><br /><br />
+          <input class="inputContact" type="email" placeholder="Email Adress" />
+          <br /><br /><br />
+        </div>
+        <div class="inpit-box">
+          <input
+            class="inputContact"
+            type="number"
+            placeholder="Mobile Number"
+          />
+          <br /><br /><br />
+          <input class="inputContact" type="text" placeholder="Email Subject" />
+        </div>
+        <br /><br /><br /><br />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your message"
+        ></textarea>
+        <br /><br /><br />
+        <input type="submit" value="send messsage" class="btn" />
+      </form>
+    </section>-->
+
+    <form id="form">
+        <div class="field">
+            <label for="from_name">Nome</label>
+            <input type="text" name="from_name" id="from_name" />
+        </div>
+        <div class="field">
+            <label for="to_name">Sobrenome</label>
+            <input type="text" name="to_name" id="to_name" />
+        </div>
+        <div class="field">
+            <label for="message">Mensagem</label>
+            <!--  <input type="text" name="message" id="message" />-->
+            <textarea type="text" name="message" id="message" /></textarea>
+
+        </div>
+        <div class="field">
+            <label for="email_id">Email</label>
+            <input type="text" name="email_id" id="email_id" />
+        </div>
+        <!-- <div class="field">
+        <label for="telephone_id">Telephone</label>
+        <input type="number" name="telephone_id" id="telephone_id" />
+      </div>-->
+
+        <input type="submit" id="button" value="Enviar" />
+    </form>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init("T_36YUXS90qbK5lal");
+    </script>
 
     <!--footer design -->
 
@@ -315,6 +358,8 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script src="js/index.js"></script>
+
+    <script src="js/emailJs.js"></script>
 </body>
 
 </html>

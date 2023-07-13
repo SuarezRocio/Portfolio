@@ -23,14 +23,14 @@
             <a href="#contact">Contact</a>
         </nav>
     </header>
-
+    <br><br><br><br><br>
     <!---home sectio design-->
     <div class="section home" id="home">
         <div class="home-content">
             <h3>Oi, sou eu!</h3>
             <h1>Rocio Suarez</h1>
             <h3>Eu sou<span class="multiple-text">Frontend Developer</span></h3>
-            <p>
+            <p id="contenido">
                 Olá, sou Rocio Suarez, desenvolvedor frontend, tenho conhecimento de
                 react.js, html, css, javascript e typescript.
             </p>
@@ -48,14 +48,13 @@
         </div>
         <a href="/image/DesenvolvedorFrontend_RocioSuarez.pdf" class="btn" download>Download Cv</a>
     </div>
-    <div class="home-img">
-        <img src="./image/perfil.PNG" alt="" srcset="" />
-    </div>
 
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="images" alt="" />
+
+        <div class="home-img">
+            <img style="width: 30vw;" src="./image/perfil.PNG" alt="" srcset="" />
         </div>
+        <br><br><br>
         <div class="about-content">
             <h2 id="headingAbout" class="heading">About <span>Me</span></h2>
             <h2>Frontend Developer</h2>
@@ -274,39 +273,10 @@
         </div>
     </section>
 
-    <!---contact section design-->
-    <!--- <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me!</span></h2>
-      <form action="#">
-        <div class="inpit-box">
-          <input class="inputContact" type="text" placeholder="Full Name" />
-          <br /><br /><br />
-          <input class="inputContact" type="email" placeholder="Email Adress" />
-          <br /><br /><br />
-        </div>
-        <div class="inpit-box">
-          <input
-            class="inputContact"
-            type="number"
-            placeholder="Mobile Number"
-          />
-          <br /><br /><br />
-          <input class="inputContact" type="text" placeholder="Email Subject" />
-        </div>
-        <br /><br /><br /><br />
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Your message"
-        ></textarea>
-        <br /><br /><br />
-        <input type="submit" value="send messsage" class="btn" />
-      </form>
-    </section>-->
 
     <form id="form">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
         <div class="field">
             <label for="from_name">Nome</label>
             <input type="text" name="from_name" id="from_name" />

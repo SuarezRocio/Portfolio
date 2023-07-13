@@ -53,7 +53,7 @@ header {
 }
 
 .navbar a {
-    font-size: 1.7rem;
+    font-size: 3rem;
     color: var(--text-color);
     margin-left: 4rem;
     transition: 0.3s;
@@ -90,6 +90,11 @@ section {
     margin-bottom: 2rem;
 }
 
+
+#contenido {
+    font-size: 2.5rem;
+}
+
 span {
     color: var(--main-color);
 }
@@ -100,7 +105,7 @@ span {
     background: var(--main-color);
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     color: var(--second-bg-color);
     letter-spacing: 0.1rem;
     font-weight: 600;
@@ -111,16 +116,6 @@ span {
     box-shadow: none;
 }
 
-/*
-#about {
-  width: 100vw;
-  height: 70vh;
-}
-
-.about-content {
-  width: 100vw;
-  height: 70vh;
-}*/
 
 .about {
     display: flex;
@@ -360,31 +355,6 @@ contact {
     margin: 1rem;
 }
 
-/*
-.contact form .input-box input,
-.contact form textarea {
-  width: 100%;
-  padding: 1.5rem;
-  font-size: 2rem;
-  color: var(--text-color);
-  background: var(--second-bg-color);
-  border-radius: 0.8rem;
-  margin: 0.7rem 0;
-}
-
-.contact form .input-box input {
-  width: 100%;
-}
-
-.contact form textarea {
-  resize: none;
-}
-
-.contact form btn {
-  margin-top: 2rem;
-  cursor: pointer;
-}
-*/
 
 .footer {
     display: flex;
@@ -592,4 +562,22 @@ input[type="submit"] {
     flex-direction: column;
     justify-content: center;
     align-self: center;
+}
+
+.heading {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 5rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: 0.8rem;
+    margin: 0.7rem 0;
+}
+
+#button {
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border: 2rem solid var(--bg-color);
+    border-radius: 0.8rem;
+    margin: 2rem;
 }
